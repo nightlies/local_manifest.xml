@@ -7,5 +7,10 @@
      <project name="nightlies/android_vendor_htc_enrc2b" path="vendor/htc/enrc2b" remote="github" revision="master"/>
 
      <project name="maxwen/enrc2b-kernel-BLADE" path="kernel/htc/enrc2b" remote="github" revision="master" />
+     
+     <remove-project <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
+     <project name="nightlies/android_vendor_cm" path="vendor_cm" remote="github" revision="cm-10.1"/>
+     
+     <project name="nightlies/nightlies/GooManager_prebuilt" path="packages/apps/GooManager" remote="github" revision="master"/>
 
     </manifest>
