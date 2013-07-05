@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <manifest>
+
+
+     <project name="nightlies/android_device_htc_enrc2b" path="device/htc/enrc2b" remote="github" revision="cm-10.1" />
+
+     <project name="nightlies/android_vendor_htc_enrc2b" path="vendor/htc/enrc2b" remote="github" revision="master"/>
+
+     <project name="maxwen/enrc2b-kernel-BLADE" path="kernel/htc/enrc2b" remote="github" revision="master" />
+
+    </manifest>
